@@ -1,0 +1,4 @@
+rootProject.name = 'scala'
+include 'eureka-scala-server'
+include 'test-service'
+
