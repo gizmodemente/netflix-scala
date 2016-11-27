@@ -1,6 +1,12 @@
 spring:
   application:
     name: test-service
+  couchbase:
+    bootstrap-hosts: localhost
+    bucket:
+      name: example
+      password: example
 
 server:
   port: 8080
+
