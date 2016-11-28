@@ -6,6 +6,9 @@ spring:
     bucket:
       name: example
       password: example
+  cache:
+    type: couchbase
+    cache-names: players
 
 server:
   port: 8080
